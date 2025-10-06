@@ -1,6 +1,6 @@
 var http = require('http');
 var fs = require('fs');
-var index = fs.readFileSync( 'index.html');
+var index = fs.readFileSync( 'https://klinikrobot.vercel.app/index.html');
 
 var SerialPort = require('serialport');
 const parsers = SerialPort.parsers;
